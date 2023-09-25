@@ -745,7 +745,7 @@
   "Username": "Username",
   "Username/Email": "Username/Email",
   "Users": "Users",
-  "validation.required": "validation.required",
+  "validation.required": "This field is required",
   "Verified": "Verified",
   "Verify Email": "Verify Email",
   "Verify email": "Verify email",
