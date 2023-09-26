@@ -88,12 +88,12 @@ main a.bg-primary-700:hover{
 	--tw-ring-opacity: 0;
 }
 
-main button.bg-blue-600{
+main button.bg-blue-600, main button.bg-blue-700{
 	background-color:#12a19a;
 	color:#fff;
 }
 
-main button.bg-blue-600:hover{
+main button.bg-blue-600:hover, main button.bg-blue-700:hover{
 	background-color:#fff;
 	color:#12a19a;
 	border:1px solid #12a19a;
@@ -125,17 +125,33 @@ main aside a:hover h2.text-gray-900{
 .grid button.ring-slate-200:focus{
 	--tw-ring-opacity: 0;
 }
-main button.ring-primary-500{
+button.ring-primary-500{
 	background-color:#12a19a;
 	color:#fff;
 	--tw-ring-opacity: 0;
 }
-main button.ring-primary-500:hover{
+button.ring-primary-500:hover{
 	background-color:#fff;
 	color:#12a19a;
 	border:1px solid #12a19a;
 	--tw-ring-opacity: 0;
 }
-main button.ring-primary-500:focus{
+button.ring-primary-500:focus{
 	--tw-ring-opacity: 0;
 }
+
+main button.bg-orange-600{
+	background-color:#636871;
+	color:#fff;
+}
+main button.bg-orange-600:hover{
+	background-color:#fff;
+	color:#636871;
+	border:1px solid #636871;
+	--tw-ring-opacity: 0;
+}
+main button.bg-orange-600:focus{
+	--tw-ring-opacity: 0;
+}
+
+
