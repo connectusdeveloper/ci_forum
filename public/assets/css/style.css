@@ -23,7 +23,7 @@ header button.text-gray-700:focus{
 header .flex.gap-x-1 .text-gray-700:hover,  form .bg-blue-600:hover, header .relative.text-gray-700:hover, header button.text-gray-700:hover{
 	background-color: #fff;
 	color: #12a19a;
-	border:1px solid black;
+	border:1px solid #12a19a;
 	--tw-ring-opacity: 0;
 }
 header .flex.gap-x-1 .text-gray-700:focus,  form .bg-blue-600:focus, header .relative.text-gray-700:focus, header button.text-gray-700:focus{
@@ -58,7 +58,7 @@ main .isolate .bg-gray-100{
 main .isolate .bg-gray-100:hover{
 	background-color: #fff;
 	color: #12a19a;
-	border:1px solid black;
+	border:1px solid #12a19a;
 	--tw-ring-opacity: 0;
 }
 svg.text-blue-400{
@@ -120,5 +120,22 @@ main aside a:hover h2.text-gray-900{
 	background-color:#fff;
 	color:#636871;
 	border:1px solid #636871;
+	--tw-ring-opacity: 0;
+}
+.grid button.ring-slate-200:focus{
+	--tw-ring-opacity: 0;
+}
+main button.ring-primary-500{
+	background-color:#12a19a;
+	color:#fff;
+	--tw-ring-opacity: 0;
+}
+main button.ring-primary-500:hover{
+	background-color:#fff;
+	color:#12a19a;
+	border:1px solid #12a19a;
+	--tw-ring-opacity: 0;
+}
+main button.ring-primary-500:focus{
 	--tw-ring-opacity: 0;
 }

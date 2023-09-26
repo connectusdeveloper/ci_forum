@@ -167,11 +167,11 @@
         </div>
 
         <!-- Theme -->
-        <div class="col-span-6 sm:col-span-3">
+        <div class="col-span-6 sm:col-span-3" style="display:none;">
           <x-ui-native-select :label="__('Theme')" wire:model.defer="settings.theme">
             <option value="">{{ __('Let user select') }}</option>
             <option value="dark">{{ __('Dark') }}</option>
-            <option value="light">{{ __('Light') }}</option>
+            <option value="light" selected>{{ __('Light') }}</option>
           </x-ui-native-select>
         </div>
 
