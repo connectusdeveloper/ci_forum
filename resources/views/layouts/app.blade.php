@@ -86,6 +86,8 @@
   <!-- Styles -->
   @livewireStyles
   @stack('styles')
+  
+  <link rel="stylesheet" href="<?= URL::to('/assets/css/style.css'); ?>">
 </head>
 
 <body class="h-full min-h-screen font-sans antialiased bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300">
@@ -107,7 +109,7 @@
 
       <!-- Page Heading -->
       @isset($header)
-        <header class="" id="header">
+        <header class="header" id="header">
           <div class="max-w-7xl mx-auto pt-8 px-4 sm:px-6 lg:px-8">
             {{ $header }}
           </div>

@@ -52,7 +52,7 @@
               @if ($settings['faqs'] ?? null)
                 <a href="{{ route('faqs.list') }}" @class([
                     'text-gray-700 dark:text-white px-3 py-2 rounded-md text-sm font-medium',
-                    'bg-gray-100 dark:bg-gray-700' => request()->routeIs('faqs.list'),
+                    'bg-gray-100 dark:bg-gray-700 head-link-btn' => request()->routeIs('faqs.list'),
                     'bg-white dark:bg-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700' => !request()->routeIs(
                         'faqs.list'),
                 ])>{{ __('FAQs') }}</a>
@@ -61,7 +61,7 @@
               @if ($settings['knowledgebase'] ?? null)
                 <a href="{{ route('knowledgebase.list') }}" @class([
                     'text-gray-700 dark:text-white px-3 py-2 rounded-md text-sm font-medium',
-                    'bg-gray-100 dark:bg-gray-700' => request()->routeIs('knowledgebase.list'),
+                    'bg-gray-100 dark:bg-gray-700 head-link-btn' => request()->routeIs('knowledgebase.list'),
                     'bg-white dark:bg-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700' => !request()->routeIs(
                         'knowledgebase.list'),
                 ])>{{ __('Knowledge base') }}</a>
@@ -70,7 +70,7 @@
               @if ($settings['articles'] ?? null)
                 <a href="{{ route('articles.list') }}" @class([
                     'text-gray-700 dark:text-white px-3 py-2 rounded-md text-sm font-medium',
-                    'bg-gray-100 dark:bg-gray-700' => request()->routeIs('articles.list'),
+                    'bg-gray-100 dark:bg-gray-700 head-link-btn' => request()->routeIs('articles.list'),
                     'bg-white dark:bg-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700' => !request()->routeIs(
                         'articles.list'),
                 ])>{{ __('Articles') }}</a>
