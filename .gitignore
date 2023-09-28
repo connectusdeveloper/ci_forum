@@ -7,6 +7,8 @@
 .env.backup
 .env.production
 .phpunit.result.cache
+.php-ini
+.php-version
 Homestead.json
 Homestead.yaml
 auth.json
